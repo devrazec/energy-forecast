@@ -4,6 +4,11 @@ A comprehensive web application for simulating and forecasting energy consumptio
 
 ![Energy Forecast Dashboard](frontend/public/pic1.jpg)
 
+## 🔗 Links
+
+- **Live Demo**: [https://YOUR_USERNAME.github.io/energy-forecast](https://YOUR_USERNAME.github.io/energy-forecast)
+- **Repository**: [https://github.com/YOUR_USERNAME/energy-forecast](https://github.com/YOUR_USERNAME/energy-forecast)
+
 ## 🎯 Overview
 
 This project simulates realistic energy consumption data for 8 major Portuguese cities and uses machine learning techniques to predict future consumption patterns. The application provides interactive visualizations to analyze consumption trends and compare patterns across different cities and time periods.

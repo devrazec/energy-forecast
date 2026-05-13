@@ -10,23 +10,20 @@ import IconButton from '@mui/material/IconButton';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import HomeIcon from '@mui/icons-material/Home';
-import MapIcon from '@mui/icons-material/Map';
-import HistoryIcon from '@mui/icons-material/History';
-import WbCloudyIcon from '@mui/icons-material/WbCloudy';
-import ShowChartIcon from '@mui/icons-material/ShowChart';
+import LocationCityIcon from '@mui/icons-material/LocationCity';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const navItems = [
     { text: 'Home', icon: <HomeIcon />, href: '/' },
-    { text: 'All Cities', icon: <MapIcon />, href: '/pages/AllCities' },
-    { text: 'All Days', icon: <MapIcon />, href: '/pages/AllDays' },
-    { text: 'Lisbon', icon: <MapIcon />, href: '/pages/Lisbon' },
-    { text: 'Porto', icon: <MapIcon />, href: '/pages/Porto' },
-    { text: 'Faro', icon: <MapIcon />, href: '/pages/Faro' },
-    { text: 'Coimbra', icon: <MapIcon />, href: '/pages/Coimbra' },
-    { text: 'Braga', icon: <MapIcon />, href: '/pages/Braga' },
-    { text: 'Bragança', icon: <MapIcon />, href: '/pages/Bragança' },
-    { text: 'Leiria', icon: <MapIcon />, href: '/pages/Leiria' },
-    { text: 'Guarda', icon: <MapIcon />, href: '/pages/Guarda' },
+    { text: 'All Cities', icon: <LocationCityIcon />, href: '/pages/AllCities' },
+    { text: 'All Days', icon: <CalendarMonthIcon />, href: '/pages/AllDays' },
+    { text: 'All Prices', icon: <AttachMoneyIcon />, href: '/pages/AllPrices' },
+    { text: 'Daily', icon: <TrendingUpIcon />, href: '/pages/Daily' },
+    { text: 'Lisbon', icon: <LocationOnIcon />, href: '/pages/Lisbon' },
+    { text: 'Porto', icon: <LocationOnIcon />, href: '/pages/Porto' },
 ];
 
 export default function Bottom() {
