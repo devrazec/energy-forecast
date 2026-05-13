@@ -3,6 +3,7 @@
 A comprehensive web application for simulating and forecasting energy consumption patterns across Portuguese cities using data science and interactive visualizations.
 
 ![Energy Forecast Dashboard](frontend/public/pic1.jpg)
+![Energy Forecast All Cities](frontend/public/pic2.jpg)
 
 ## 🔗 Links
 
