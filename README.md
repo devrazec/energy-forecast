@@ -7,8 +7,8 @@ A comprehensive web application for simulating and forecasting energy consumptio
 
 ## 🔗 Links
 
-- **Live Demo**: [https://YOUR_USERNAME.github.io/energy-forecast](https://YOUR_USERNAME.github.io/energy-forecast)
-- **Repository**: [https://github.com/YOUR_USERNAME/energy-forecast](https://github.com/YOUR_USERNAME/energy-forecast)
+- **Live Demo**: [https://devrazec.github.io/energy-forecast](https://devrazec.github.io/energy-forecast)
+- **Repository**: [https://github.com/devrazec/energy-forecast](https://github.com/devrazec/energy-forecast)
 
 ## 🎯 Overview
 
