@@ -220,8 +220,7 @@ def save_prediction_to_json(prediction_data, output_dir="data/predictions"):
     return filename
 
 
-def predict_all_cities(data_dir="../frontend/src/app/data/consumption", 
-                       output_dir="../frontend/src/app/data/forecast/pandas"):
+def predict_all_cities(data_dir, output_dir):
     """
     Generate predictions for all cities based on their historical data.
     
@@ -278,7 +277,9 @@ def main():
     num_days = 7
     
     # Output directory for JSON files
-    output_dir = "../frontend/src/app/data/consumption"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(script_dir)
+    output_dir = os.path.join(base_dir, "frontend/src/app/data/consumption")
     
     print(f"Generating energy consumption data for {len(cities)} cities...")
     print(f"Period: {start_date} to {(datetime.strptime(start_date, '%Y-%m-%d') + timedelta(days=num_days-1)).strftime('%Y-%m-%d')}")
@@ -301,7 +302,8 @@ def main():
     print("=" * 60)
     print()
     
-    predict_all_cities(output_dir)
+    prediction_output_dir = os.path.join(base_dir, "frontend/src/app/data/forecast/pandas")
+    predict_all_cities(output_dir, prediction_output_dir)
 
 
 if __name__ == "__main__":
