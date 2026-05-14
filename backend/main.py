@@ -273,8 +273,8 @@ def main():
         "Guarda"
     ]
     
-    # Generate data starting from 2026-05-10 for 7 consecutive days
-    start_date = "2026-05-10"
+    # Generate data starting from today for 7 consecutive days
+    start_date = datetime.now().strftime("%Y-%m-%d")
     num_days = 7
     
     # Output directory for JSON files
