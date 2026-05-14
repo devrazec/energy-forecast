@@ -21,7 +21,7 @@ export default function NotFound() {
           The page you are looking for does not exist.
         </p>
         <a
-          href="/"
+          href="/energy-forecast/"
           style={{
             marginTop: '24px',
             padding: '12px 24px',
