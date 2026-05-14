@@ -285,11 +285,11 @@ def main():
     print()
     
     # Generate all data
-    #all_cities_data = generate_energy_consumption(cities, start_date, num_days)
+    all_cities_data = generate_energy_consumption(cities, start_date, num_days)
     
     # Save each city's data to a separate JSON file
-    #for city, city_data in all_cities_data.items():
-    #    save_city_data_to_json(city, city_data, output_dir)
+    for city, city_data in all_cities_data.items():
+        save_city_data_to_json(city, city_data, output_dir)
     
     print()
     print(f"✓ Successfully generated {len(cities)} JSON files in '{output_dir}'")
