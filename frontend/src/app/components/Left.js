@@ -26,6 +26,7 @@ const mainNavItems = [
     { text: 'All Days', icon: <CalendarMonthIcon />, href: '/pages/AllDays' },
     { text: 'All Prices', icon: <AttachMoneyIcon />, href: '/pages/AllPrices' },
     { text: 'Daily', icon: <TrendingUpIcon />, href: '/pages/Daily' },
+    { text: 'Real Time', icon: <TrendingUpIcon />, href: '/pages/RealTime' },
     { text: 'Lisbon', icon: <LocationOnIcon />, href: '/pages/Lisbon' },
     { text: 'Porto', icon: <LocationOnIcon />, href: '/pages/Porto' },
 ];
